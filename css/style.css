@@ -1,0 +1,258 @@
+/* ALL COMMON CSS START */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.clr {
+  clear: both;
+}
+.mr {
+  margin-right: 0 !important;
+}
+/* ALL COMMON CSS END */
+
+/* HEADER PART START  */
+#header_part {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.logo {
+  padding-top: 30px;
+  float: left;
+  width: 270px;
+}
+.menu {
+  float: left;
+  width: 900px;
+  text-align: right;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: white;
+  line-height: 120px;
+  font-style: 14px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 25px;
+  transition: all linear 0.4s;
+}
+.menu ul li a:hover {
+  color: #c7b299;
+}
+
+/* HEADER PART END  */
+
+/* BANNER PART START  */
+#banner_part {
+  background: url(../images/Waxom-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner_overly {
+  padding: 380px 0;
+  background: rgb(18, 18, 18, 0.7);
+}
+.banner_content {
+  text-align: center;
+}
+.banner_content h3 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+.banner_content h1 {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.banner_content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 288px;
+  margin-bottom: 50px;
+  line-height: 24px;
+}
+.banner_content a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  padding: 21px 39px 18px 39px;
+  border-bottom: 3px solid #ca8632;
+  background: #998675;
+  border-radius: 5px;
+}
+/* BANNER PART END  */
+
+/* SERVICE PART START  */
+#service_part {
+  padding: 80px 0;
+}
+.service_item {
+  width: 270px;
+  margin-right: 30px;
+  float: left;
+  text-align: center;
+}
+.service_icon i {
+  font-size: 50px;
+  color: #555555;
+  transition: 0.4s;
+}
+.service_text h3 {
+  color: #555555;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  transition: 0.4s;
+}
+.service_text p {
+  color: #8c8c8c;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px;
+  position: relative;
+}
+.service_text p::after {
+  position: absolute;
+  height: 3px;
+  width: 0px;
+  background: #f1eee9;
+  content: "";
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.service_item:hover .service_icon i {
+  color: #c7b299;
+}
+.service_item:hover .service_text h3 {
+  color: #c7b299;
+}
+.service_item:hover .service_text p::after {
+  color: #c7b299;
+  width: 70px;
+}
+/* SERVICE PART END  */
+
+/* IDEA PART START  */
+#idea_part {
+  padding-top: 80px;
+  background: #fbfaf8;
+}
+
+.common_text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.common_text h3 {
+  color: #555555;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 30px;
+}
+.common_text p {
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  padding: 0 180px;
+}
+.idea_img img {
+  width: 100%;
+  display: block;
+}
+
+/* IDEA PART END  */
+
+/* PURCHASE PART START  */
+#purchase_part {
+  padding: 50px 0;
+  background: linear-gradient(to right, #211b19, #4e3427);
+}
+.purchase_left {
+  float: left;
+  width: 530px;
+}
+.purchase_left h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 9px;
+}
+.purchase_left h3 span {
+  color: #bca891;
+}
+.purchase_left p {
+  color: #615855;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+.purchase_right {
+  width: 170px;
+  float: right;
+}
+.purchase_right a {
+  background: #998675;
+  padding: 17px 28px;
+  border-bottom: 3px solid #736357;
+  border-radius: 5px;
+  text-transform: uppercase;
+
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+}
+
+/* PURCHASE PART END  */
+
+/* HEADER PART START  */
+/* HEADER PART END  */
+/* HEADER PART START  */
+/* HEADER PART END  */
